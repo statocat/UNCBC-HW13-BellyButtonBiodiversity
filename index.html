@@ -7,6 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Bellybutton Biodiversity</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="static/css/style.css">
 </head>
 
 <body>
@@ -25,7 +26,7 @@
           <!-- <select id="selDataset"></select> -->
           <select id="selDataset" onchange="optionChanged(this.value)"></select>
         </div>
-        <div class="panel panel-primary">
+        <div class="panel panel-default">
           <div class="panel-heading">
             <h3 class="panel-title">Demographic Info</h3>
           </div>
@@ -34,21 +35,27 @@
       </div>
       <div class="col-md-5">
         <div id="bar"></div>
+        <div id='caption'>Number of colonies of top-ten bacterial species found in subject's navel.</div>
       </div>
       <div class="col-md-5">
         <div id="gauge"></div>
+        <div id='caption'>Weekly frequency of navel-bathing behavior by subject.</div>
       </div>
     </div>
+    <div>&nbsp;</div> 
     <div class="row">
       <div class="col-md-12">
         <div id="bubble"></div>
+        <div id='caption'>Number of colonies of bacterial species found in subject's navel.</div>
       </div>
     </div>
+    <div class="text-center-p3">Bacteria image created using<a href="https://biorender.com/"
+      >MDBootstrap.com</a</div>
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="charts.js"></script>
+  <script src="static/js/charts.js"></script>
 
 </body>
 
