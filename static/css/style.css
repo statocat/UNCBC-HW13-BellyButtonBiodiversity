@@ -2,7 +2,7 @@ body {color: #000000}
 
 .jumbotron {
 	color: #ab877e;
-background-color: #fffafa ;
+background-color: #fffdfd ;
 background-size: 100% 100%;
 text-align: center;
 }
@@ -11,4 +11,28 @@ body {background-image: url("../images/bacteria_jumbotron.png")}
 
 #caption{
 	background-color: #ffffff;
+}
+
+.panel > .panel-heading {
+	background-color: #fffdfd;
+}
+
+.well {
+	background-color: #fffdfd;
+}
+
+div {
+	background-color: #fffdfd;
+}
+
+.col-md-2 {
+	background-color: #fffdfd;
+}
+
+.col-md-5 {
+	background-color: #fffdfd;
+}
+
+.text-center-p3 {
+	text-align: center;
 }
